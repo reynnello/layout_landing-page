@@ -1,0 +1,28 @@
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 25px 20px 40px;
+  background-image: url(../images/bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+
+    &__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__icons {
+      display: flex;
+      gap: 24px;
+    }
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.5px;
+  margin: 150px 0 0;
+}

@@ -1,5 +1,9 @@
+<!-- #region head -->
 <!doctype html>
-<html lang="en">
+<html
+  lang="en"
+  class="page"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -9,14 +13,159 @@
     <title>Landing Page</title>
     <link
       rel="stylesheet"
-      href="./styles/main.scss"
+      href="./styles/index.scss"
     />
     <script
       src="scripts/main.js"
       defer
     ></script>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="1"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1>Landing Page</h1>
+  <!-- #endregion -->
+  <body class="page__body">
+    <header class="header">
+      <div class="header__top">
+        <a href="#">
+          <img
+            src="./images/met_logo.png"
+            alt="The MET logo"
+          />
+        </a>
+        <div class="header__icons">
+          <a
+            href="#"
+            class="icon icon--phone"
+          ></a>
+          <a
+            href="#menu"
+            class="icon icon--menu"
+          ></a>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <h1 class="title">
+          Welcome
+          <br />
+          to The MET
+        </h1>
+      </div>
+    </header>
+
+    <aside
+      class="page__menu menu"
+      id="menu"
+    >
+      <div class="menu__top">
+        <a href="#">
+          <img
+            src="./images/met_logo.png"
+            alt="The MET logo"
+          />
+        </a>
+        <a
+          href="#"
+          class="icon icon--close"
+        ></a>
+      </div>
+      <nav class="nav menu__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a
+              href="#"
+              class="nav__link"
+            >
+              HOME
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="#about"
+              class="nav__link"
+            >
+              ABOUT US
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="#nowonview"
+              class="nav__link"
+            >
+              NOW ON VIEW
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="#explore"
+              class="nav__link"
+            >
+              EXPLORE ONLINE
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="#contacts"
+              class="nav__link"
+            >
+              CONTACTS
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <a
+        href="tel:+1 212-535-7710"
+        class="menu__contacts"
+      >
+        THE MET FIFTH AVENUE
+        <br />
+        +1 212-535-7710
+      </a>
+      <a
+        href="tel:+1 212-923-3700"
+        class="menu__contacts"
+      >
+        THE MET CLOISTERS
+        <br />
+        +1 212-923-3700
+      </a>
+      <a
+        href="tel:+1 212-535-7710"
+        class="menu__call-to-order"
+      >
+        CALL TO ORDER
+      </a>
+    </aside>
+
+    <main class="main">
+      <section id="#about">
+        <h2>PLAN YOUR VISIT</h2>
+      </section>
+
+      <section id="#nowonview">
+        <h2>NOW ON VIEW</h2>
+      </section>
+
+      <section id="explore">
+        <h2>MORE TO EXPLORE ONLINE</h2>
+      </section>
+
+      <section id="contacts">
+        <h2>CONTACT US</h2>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
