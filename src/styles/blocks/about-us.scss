@@ -1,0 +1,37 @@
+.about-us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+
+  padding: 100px 20px 0;
+  text-transform: uppercase;
+  color: #161616;
+
+  &__title {
+    margin-bottom: 32px;
+    grid-column: 1 / -1;
+  }
+
+  &__timetable {
+    grid-column: 1 / -1;
+  }
+
+  &--small {
+    margin: 0;
+    color: #d12d35;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+  }
+
+  &--big {
+    margin: 0;
+    color: inherit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.5px;
+    text-align: left;
+  }
+}

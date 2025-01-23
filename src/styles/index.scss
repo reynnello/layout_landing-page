@@ -1,6 +1,7 @@
-@use './utils/variables';
-@import './header';
-@import './page';
-@import './icon';
-@import './menu';
-@import './nav';
+@import './blocks/timetable';
+@import './blocks/header';
+@import './blocks/page';
+@import './blocks/icon';
+@import './blocks/menu';
+@import './blocks/nav';
+@import './blocks/about-us';
